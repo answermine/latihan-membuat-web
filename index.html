@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mahendra - Web</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	</head>
+	
+	<body>
+	
+		<!----- bagian header ---->
+		<div class="atas">
+		<div id="header">
+			<div class="wrapper">
+				<img src="images/logo.png" height="100px">
+				<div class="toggle">
+					<div class="menu"><i class="fas fa-bars"></i></div>
+				</div>
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		
+		
+		<!------ bagian banner Selamat Datang ------->
+		
+		<div id="banner">
+			<div class="wrapper">
+				<div class="tengah">
+				<h1>SELAMAT DATANG</h1>
+				<h2>Silahkan Nikmati Kunjungan Anda di Website Kami</h2>
+				<form>
+					<a href="#">Learn More</a>
+				</form>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!------ Bagian About Us ------->
+		
+		<div id="banner_kedua">
+			<form>
+				<a>ABOUT US</a>
+			</form>
+			<div class="flex-parent">
+				<div class="flex-child">
+					<img src="images/new_clock.png" height="100px">
+					<p>Jam kunjungan untuk tamu yang ingin melihat pekerjaan kami, dibuka mulai hari Senin-Sabtu pukul 08.00-16.00 WIB</p>
+				</div>
+			
+				<div class="flex-child">
+					<img src="images/new_chat.png" height="100px">
+					<p>Hubungi kami jika Anda mengalami kendala ataupun masalah yang sedang dihadapi</p>
+				</div>
+			
+				<div class="flex-child">
+					<img src="images/new_group.png" height="100px">
+					<p>Tim kami dipilih secara profesional dan dapat menjalankan tugas secara efektif dan efisien</p>
+				</div>	
+			</div>
+		</div>
+		
+		<!-------- Bagian Gallery --------->
+		
+		<div id="gallery">
+			<div class="wrapper">
+				<h2>GALLERY</h2>
+				<p>Nikmati sajian gambar-gambar unik dari kami</p>
+				
+				<div class="foto">
+					<div class="gambar">
+						<img src="images/pic01.jpg" height="140px">
+						<h3>CITY</h3>
+						<p>Gambar di atas menggambarkan sudut kota yang tertata rapi di bagian samping kanan dan kiri</p>
+					</div>
+					
+					<div class="gambar">
+						<img src="images/pic02.jpg" height="140px">
+						<h3>LIBRARY</h3>
+						<p>Gambar di atas menggambarkan perpustakan di salah satu kota yang mempunyai banyak buku tersusun rapi</p>
+					</div>
+					
+					<div class="gambar">
+						<img src="images/pic03.jpg" height="140px">
+						<h3>ROOF</h3>
+						<p>Gambar di atas adalah gambar atap beberapa rumah yang diambil dari atas sebuah gedung</p>
+					</div>
+					
+					<div class="gambar">
+						<img src="images/pic04.jpg" height="140px">
+						<h3>ROAD AND LAKE</h3>
+						<p>Gambar di atas memperlihatkan jalanan yang melewati pegunungan yang juga terdapat sebuah danau</p>
+					</div>
+				</div>
+				
+				<form>
+					<a href="#">Learn More</a>
+				</form>
+			</div>
+		</div>
+		
+		<!--------------- Footer ----------------->
+		
+		<div class="footer">
+			<div class="wrapper">
+				<p>Contact Us</p>
+				<div class="icons">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-pinterest"></a>
+				</div>
+				
+				<div class="address">
+					<h1>Address</h1>
+					<h2>Karangmalang blok D25, Caturtunggal, Depok, Kab.Sleman, Yogyakarta</h2>
+				</div>
+				
+				<div id="mail">
+					<h1>Mail</h1>
+					<p>mahendra.zulfa@gmail.com</p>
+				</div>
+				
+				<div id="phone">
+					<h1>Phone</h1>
+					<p>(028) 345 890</p>
+				</div>
+				
+				<div class="terakhir">
+					<div class="akhir">
+					<a>&copy; mahendra</a>
+					<a>Design by Mahendra</a>
+					<a>Image : unsplash</a>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('li').toggleClass('menu');
+				})
+			})
+		</script>
+	</body>
+</html>
